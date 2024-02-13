@@ -38,16 +38,11 @@ p :not(.body) {
     border-radius: 100% 100%;
 }
 ul :not(.body){
-    margin-left: 400px;
-    margin-right: 400px;
-    background-position: center top;
-    margin-top: 10px;
+    margin-top: 10px; 
     text-align: center;
-    position: center;
-    padding: 20px 5px;
-    background-color: white;
+    padding: 20px 5px; 
     position: relative;
-    color:transparent;
+    color: transparent;
     font-family: 'Segoe UI';
     font-size: 20px;
     border-radius: 100% 100%;
@@ -56,15 +51,15 @@ li :not(.body) {
     position: center;
     background-size: 0px;
     background-color: white;
-    position: center;
+    position: relative;
     color: darksalmon;
     font-family: 'Segoe UI';
-    font-size: 20px;
+    font-size: 20px; 
 }
 
 a {
     padding: 0.1px 0.1px;;
-    background-color: white;
+    background-color: white; 
     position: center;
     color:darkcyan;
     opacity: 10;
