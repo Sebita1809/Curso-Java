@@ -1,0 +1,75 @@
+img {
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+body:not(.img) {
+    background-color:cadetblue ;
+    background-image: url(https://mendoza-camara.org/wp-content/uploads/2022/04/Bodega-Andeluna-1.jpg);
+    background-position: center;
+    background-size: 99% 99%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium';
+    font-size: 35;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 700px;
+    margin-right: 700px;
+    color: rgb(0, 100, 139);
+    background-color: transparent;
+}
+
+p :not(.body) {
+    text-align: center;
+    left: 800px;
+    top: -20px;
+    margin-bottom: 30px;
+    position: left;
+    padding: 20px 50px;
+    background-color: white;
+    position: relative;
+    color:rgb(183, 113, 216);
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    border-radius: 100% 100%;
+}
+ul :not(.body){
+    margin-left: 400px;
+    margin-right: 400px;
+    background-position: center top;
+    margin-top: 10px;
+    text-align: center;
+    position: center;
+    padding: 20px 5px;
+    background-color: white;
+    position: relative;
+    color:transparent;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    border-radius: 100% 100%;
+}
+li :not(.body) {
+    position: center;
+    background-size: 0px;
+    background-color: white;
+    position: center;
+    color: darksalmon;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+}
+
+a {
+    padding: 0.1px 0.1px;;
+    background-color: white;
+    position: center;
+    color:darkcyan;
+    opacity: 10;
+}
+
+div {
+    background-color: aquamarine;
+}
